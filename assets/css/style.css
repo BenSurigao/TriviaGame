@@ -1,0 +1,70 @@
+*,
+*before,
+*after {
+    box-sizing: border-box;
+}
+
+
+.square {
+    background: rgb(245, 245, 133);
+    padding: 40px;
+    width: 1000px;
+    margin: 80px auto;
+
+}
+
+.start {
+    display: block;
+}
+.quiz {
+    display: none;
+}
+.end {
+    display: none;
+}
+
+.triviatitle {
+    text-align: center;
+    color: blue;
+    font-family: 'Bitter', serif;
+    font-size: 60px;
+    text-shadow: 0 0 5px white;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.startbutton {
+    display: block;
+    width: 200px;
+    height: 50px;
+    padding: 10px 30px;
+    margin: 0 auto;
+    font-size: 20px;
+    font-family: 'Bitter', serif;
+    color: orange;
+    background: rgb(26, 141, 235);
+    border: 2px solid #000;
+}
+
+.label {
+    margin: 0 20px 0 0;
+}
+
+.input {
+    margin: 0 10px 0 0;
+}
+
+.answers {
+    margin: 0 auto 40px;
+}
+
+.show {
+    display: block;
+}
+
+.hide {
+    display: none;
+}
+

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Warriors Trivia Game</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Bitter&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div class="square start" id="start"> 
+        <h1 class="triviatitle">Warriors Trivia Game</h1>
+        <button class="startbutton">Start</button>
+    </div>
+
+    <div class="square quiz text-center" id="quiz">
+        <h2>Time Remaining: <span class="timer">30</span></h2>
+        <h2>Which Warriors Point Guard started in the 1995 NBA All Star Game </h2>
+        <p class="answers">
+            <input class="input" id="pointguard1" type="radio" name="pointguards" value="Latrell Sprewell"><label class="label" for="pointguard1">Latrell Sprewell</label>
+            <input class="input" id="pointguard2" type="radio" name="pointguards" value="Stephen Curry"><label class="label" for="pointguard2">Stephen Curry</label>
+            <input class="input" id="pointguard3" type="radio" name="pointguards" value="Chris Mullin"><label class="label" for="pointguard3">Chris Mullin</label>
+            <input class="input" id="pointguard4" type="radio" name="pointguards" value="Muggsy Bogues"><label class="label" for="pointguard4">Muggsy Bogues</label>
+        </p>
+
+        <h2>Which Warriors player won back to back dunk contests in 2002 and 2003 </h2>
+        <p class="answers">
+            <input class="input" id="dunker1" type="radio" name="dunkers" value="Baron Davis"><label class="label" for="dunker1">Baron Davis</label>
+            <input class="input" id="dunker2" type="radio" name="dunkers" value="Corey Magette"><label class="label" for="dunker2">Corey Magette</label>
+            <input class="input" id="dunker3" type="radio" name="dunkers" value="Andre Iguodala"><label class="label" for="dunker3">Andre Iguodala</label>
+            <input class="input" id="dunker4" type="radio" name="dunkers" value="Jason Richardson"><label class="label" for="dunker4">Jason Richardson</label>
+        </p>
+
+        <h2>Which NBA first seed team did the Warriors beat in the 2007 playoffs  </h2>
+        <p class="answers">
+            <input class="input" id="playoff1" type="radio" name="playoffs" value="Los Angeles Lakers"><label class="label" for="playoff1">Los Angeles Lakers</label>
+            <input class="input" id="playoff2" type="radio" name="playoffs" value="Dallas Mavericks"><label class="label" for="playoff2">Dallas Mavericks</label>
+            <input class="input" id="playoff3" type="radio" name="playoffs" value="Utah Jazz"><label class="label" for="playoff3">Utah Jazz</label>
+            <input class="input" id="playoff4" type="radio" name="playoffs" value="Cleveland Cavaliers"><label class="label" for="playoff4">Cleveland Cavaliers</label>
+        </p>
+
+        <h2>Which Warriors player was drafted seventh in the 2009 draft pick  </h2>
+        <p class="answers">
+            <input class="input" id="draftpick1" type="radio" name="draftpicks" value="Klay Thompson"><label class="label" for="draftpick1">Klay Thompson</label>
+            <input class="input" id="draftpick2" type="radio" name="draftpicks" value="Monta Ellis"><label class="label" for="draftpick2">Monta Ellis</label>
+            <input class="input" id="draftpick3" type="radio" name="draftpicks" value="Stephen Curry"><label class="label" for="draftpick3">Stephen Curry</label>
+            <input class="input" id="draftpick4" type="radio" name="draftpicks" value="Draymond Green"><label class="label" for="draftpick4">Draymond Green</label>
+        </p>
+
+        <h2>What year did the Warriors win their third championship </h2>
+        <p class="answers">
+            <input class="input" id="champion1" type="radio" name="champs" value="2011"><label class="label" for="champion1">2011</label>
+            <input class="input" id="champion2" type="radio" name="champs" value="2016"><label class="label" for="champion2">2016</label>
+            <input class="input" id="champion3" type="radio" name="champs" value="2018"><label class="label" for="champion3">2018</label>
+            <input class="input" id="champion4" type="radio" name="champs" value="2015"><label class="label" for="champion4">2015</label>
+        </p>
+
+
+        <button class="submit">Submit Answers</button>
+    </div>
+
+    <div class="square end" id="end"> 
+        <h1 class="triviatitle">Total</h1>
+        <p>Total Correct Answers: <span class="totalcorrect">0</span></p>
+        <p>Total Wrong Answers: <span class="totalwrong">0</span></p>
+        <p>Total Unanswered: <span class="totalunanswered">0</span></p>
+    </div>
+
+
+        
+    <script src="assets/javascript/app.js" async defer></script>
+</body>
+</html> 
